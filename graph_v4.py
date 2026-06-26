@@ -107,8 +107,8 @@ app = graph.compile()
 
 async def main():
     result = await app.ainvoke({
-        "customer_message": "I think I was charged twice this month, can you check?",
-        "customer_id": "customer_002",
+        "customer_message": "Where is my order? It hasn't arrived yet.",
+        "customer_id": "",
         "order_id": "",
         "intent": "",
         "final_response": ""
